@@ -5,7 +5,7 @@
         <div class="row m-5">
 
 
-                <form class="form" method="post" action="index.js" id="register">
+                <form class="form" method="post" action="<script src='../index.js'></script>" id="register">
                     <div class="form-group">
                         <label for="email">USUARIO</label>
                         <input type="input" class="form-control" placeholder="Ingresar Usuario" name="user">
