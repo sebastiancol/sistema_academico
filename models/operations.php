@@ -16,7 +16,7 @@
 
         }
 
-        public function insertUsuarios(string $nombre, int $telefono, string $email, string $password ){
+        public function insertUsers(string $nombre, int $telefono, string $email, string $password ){
             $this->strNombre= $nombre;
             $this->intTelefono= $telefono;
             $this->strEmail= $email;
@@ -30,13 +30,23 @@
             return $idInsert;
         }
 
-        public function getUser(){
+        public function getUsers(){
 
             $sql= "SELECT * FROM users";
             $execute = $this->conexion->query($sql);
             $request = $execute->fetchall(PDO::FETCH_ASSOC);
             return $request;
         }
+
+        public function updateUser (){
+
+        }
+
+        public function deleteUser (){
+
+        }
+
+
 
 
     }
