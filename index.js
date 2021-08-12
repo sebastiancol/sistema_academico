@@ -3,9 +3,10 @@ let info ={
     email : document.getElementsByName("user").value,
     password : document.getElementsByName("password").value
 }
-    let validate = (info!=null) ? console.log("vacio"): console.log(info.email+info.password)
+    //const validate = ()=> {(info==null) ? console.log("vacio") : console.log(info)}
+    const validate = (info==null) ? console.log("vacio") : console.log(info);
 
-let validation = document.getElementById("register")
+ //let validation = document.getElementById("register")
 
 /*
 
