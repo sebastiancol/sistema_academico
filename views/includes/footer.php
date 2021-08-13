@@ -1,6 +1,9 @@
 
+<div class="row-6">
 
-<p>SISTEMA ACADEMICO</p>
+    <p>SISTEMA ACADEMICO</p>
+</div>
+
 
 </div>
 

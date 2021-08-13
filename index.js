@@ -3,9 +3,40 @@ let info ={
     email : document.getElementsByName("user").value,
     password : document.getElementsByName("password").value
 }
+
+function validateLogin (info){
+
     //const validate = ()=> {(info==null) ? console.log("vacio") : console.log(info)}
     const validate = (info==null) ? console.log("vacio") : console.log(info);
+}
 
+let form ={
+    document: document.getElementsByName("doc").value,
+    first_name: document.getElementsByName("f_name").value,
+    last_name: document.getElementsByName("l_name").value,
+    address: document.getElementsByName("address").value,
+    number: document.getElementsByName("number").value,
+    birthday: document.getElementsByName("birthday").value
+}
+
+function validateUnregister(form){
+
+    const new_dates = (form==null) ? console.log("vacio") : console.log(info);
+}
+
+function birthday(form.birthday()) {
+    let today = new Date();
+    let birthday = new Date(fecha);
+    let age = today.getFullYear() - birthday.getFullYear();
+    let month = today.getMonth() - birthday.getMonth();
+
+    if (month < 0 || (month === 0 && today.getDate() < birthday.getDate())) {  age--;    }
+        return age;
+}
+
+function gender() {
+
+}
  //let validation = document.getElementById("register")
 
 /*

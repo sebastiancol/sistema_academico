@@ -2,7 +2,7 @@
 <?php require('includes/header.php');?>
 
 
-        <div class="row m-5">
+        <div class="row-6">
 
 
                 <form class="form" method="post" action="" id="register">
