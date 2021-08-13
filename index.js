@@ -10,7 +10,7 @@ function validateLogin (info){
     const validate = (info==null) ? console.log("vacio") : console.log(info);
 }
 
-let form ={
+let formDate ={
     document: document.getElementsByName("doc").value,
     first_name: document.getElementsByName("f_name").value,
     last_name: document.getElementsByName("l_name").value,
