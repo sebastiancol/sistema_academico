@@ -1,0 +1,32 @@
+hacer las vitas en html y consumilras con ajax, para consumir el controlador con js
+
+controlador con metodos que llamen a la bd, el modelo debe ser la representacion de los datos calses fofo clases pojo
+
+php con codegniter
+
+
+
+        //require_once('Autoload.php');
+        require_once('Operation.php');
+
+
+        /*class Example extends Operation{
+
+            private $prueba;
+
+            public function __construct()
+            {
+                $this->prueba= new Operation();
+                $this->prueba->getUsers();
+                //$prueba->insertUsers();
+                echo $this->prueba;
+            }
+
+
+
+        }*/
+        public $prueba;
+        $prueba = new Operation();
+        $prueba->getUsers();
+
+

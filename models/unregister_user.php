@@ -1,13 +1,12 @@
 <?//php require('includes/header.php'); ?>
 
-<?//php require_once('models/bd.php');?>
+<?//php require_once('models/Db.php');?>
 
 
 
 <?php
 
-    require('includes/header.php');
-    //require_once('models/bd.php');
+
 
     class Unregistred_User extends User{
 
@@ -36,4 +35,3 @@
 
 
 
-<?php require('includes/footer.php'); ?>

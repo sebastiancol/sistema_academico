@@ -27,13 +27,10 @@
 
 
 
+
     }
-
-
-?>
-
-
-<?php
-require_once "views/view.login.php";
+    //$prueba = new DataBase();
 
 ?>
+
+
