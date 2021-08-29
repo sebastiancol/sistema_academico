@@ -1,15 +1,27 @@
 
-let info ={
-    email : document.getElementsByName("user").value,
-    password : document.getElementsByName("password").value
+
+
+//register.onclick=validateLogin;
+
+function validateLogin (){
+
+    let email="";
+    let password="";
+    email = document.getElementById("user").value;
+    password = document.getElementById("password").value;
+
+    if(email=='sebastian' && password==123){
+        alert("entry");
+    }else {
+        alert("null");
+        <? php requiere?>
+        <?php requiere('') ?>
+    }
+
+
 }
 
-function validateLogin (info){
-
-    //const validate = ()=> {(info==null) ? console.log("vacio") : console.log(info)}
-    const validate = (info==null) ? console.log("vacio") : console.log(info);
-}
-
+/*
 let formDate ={
     document: document.getElementsByName("doc").value,
     first_name: document.getElementsByName("f_name").value,
@@ -19,12 +31,12 @@ let formDate ={
     birthday: document.getElementsByName("birthday").value
 }
 
-function validateUnregister(form){
+function validateUnregister(formDate){
 
-    const new_dates = (form==null) ? console.log("vacio") : console.log(info);
+    //const new_dates = (form==null) ? console.log("vacio") : console.log(info);
 }
 
-function birthday(form.birthday()) {
+function birthday() {
     let today = new Date();
     let birthday = new Date(fecha);
     let age = today.getFullYear() - birthday.getFullYear();
@@ -39,7 +51,7 @@ function gender() {
 }
  //let validation = document.getElementById("register")
 
-/*
+
 
 
 function dates (validation){
@@ -52,7 +64,7 @@ function dates (validation){
 const conection = new XMLHttpRequest();
 conection.onload=function(){
     document.getElementById().value
-}*/
+}
 
 //console.log("ok");
 
@@ -80,3 +92,4 @@ function request() {
 
 //request();
 
+*/

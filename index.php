@@ -5,4 +5,6 @@
 <?//*php require_once('models/Respond.php') */?>
 
 
-<?php require('./controller/Respond.php');?>
+<?php ///require('./controller/Respond.php');
+    require('./views/view.login.php');
+ ?>
